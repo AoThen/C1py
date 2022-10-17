@@ -15,10 +15,10 @@ class Example(QMainWindow):
         self.initUI()
 
     def clearText(self):
-        print(999)
+        print('clearText')
 
-    def queryWeather(self):
-        print(666)
+    def query(self):
+        print('query')
 
     def initUI(self):
         myWin = Ui_Dialog()

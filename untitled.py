@@ -26,7 +26,7 @@ class Ui_Dialog(object):
         self.lcdNumber.setObjectName("lcdNumber")
 
         self.retranslateUi(Dialog)
-        self.buttonBox.accepted.connect(Dialog.queryWeather)  # type: ignore
+        self.buttonBox.accepted.connect(Dialog.query)  # type: ignore
         self.buttonBox.rejected.connect(Dialog.clearText)  # type: ignore
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
