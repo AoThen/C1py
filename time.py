@@ -2,12 +2,12 @@
 # @Time    : 2022/10/31
 # @Author  : Lc
 # @Software: PyCharm
-# @File    : feapder.py
+# @File    : time.py
 
-
-import time
 
 import requests
+
+import time
 
 
 class timeTaobao():
