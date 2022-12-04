@@ -2,10 +2,11 @@
 # @Time    : 2022/11/12
 # @Author  : Lc
 # @Software: PyCharm
-# @File    : gen.py
+# @File    : re.py
 
 
 import pyperclip
+
 import re
 
 strx = pyperclip.paste()
